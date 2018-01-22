@@ -1,4 +1,4 @@
-## Bug reports on Cmake
+## Bug Report on Cmake
 
 
 ### Problem Description
