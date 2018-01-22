@@ -1,7 +1,7 @@
-##Bug reports on Cmake
+## Bug reports on Cmake
 
 
-###Problem Description
+### Problem Description
 When I use command "cmake", I get the following warning.
 ```zsh
 CMake Warning at /Applications/CMake.app/Contents/share/cmake-3.10/Modules/FindBoost.cmake:5
@@ -13,7 +13,7 @@ Call Stack (most recent call first):
 CMakeLists.txt:53 (find_package)
 ```
 
-###Figure out my boost version and cmake version
+### Figure out my boost version and cmake version
 Then I check the path  `/usr/local/Cellar/boost/1.66.0`
 
 I know that maybe the reason that my boost version is higher than `1.33` that leads this problem.
