@@ -1,4 +1,18 @@
-## Bug Report on Cmake
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+# Assignment1
+
+### Personal Interest
+I'm interested in match equations whether the bitwise data parallel expression matching equation is reliable or not. Can these manipulations be improved more?
+
+$$ Match(m, C) = Advance(CharClass(C) ∧ m) $$
+$$ Match(m, RS) = Match(Match(m, R), S) $$
+$$ Match(m, R|S) = Match(m, R) ∨ Match(m, S)) $$
+$$ Match(m, C∗) = MatchStar(m, CharClass(C)) $$
+$$ Match(m, R∗) = m ∨ Match(Match(m, R), R∗) $$
+$$ Advance(m) = m + m $$
+$$ MatchStar(m, C) = (((m ∧ C) + C) ⊕ C) ∨ m $$
 
 
 ### Problem Description
