@@ -12,6 +12,7 @@ Call Stack (most recent call first):
 /Applications/CMake.app/Contents/share/cmake-3.10/Modules/FindBoost.cmake:1542 (_Boost_MISSING_DEPENDENCIES)
 CMakeLists.txt:53 (find_package)
 
+
 Then I use check the path "/usr/local/Cellar/boost/1.66.0", I know that maybe the reason that my boost version is higher than 1.33 that leads this problem.
 
 I use command "cmake -version" to confirm my cmake version is 3.101.
