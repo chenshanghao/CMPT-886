@@ -2,9 +2,19 @@
 
 Cayman is a clean, responsive theme for [GitHub Pages](https://pages.github.com). This theme is available as an option if you use the [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) or you can copy the template and styles to use on your own.
 
+# Example
+
 You can preview the theme at http://jasonlong.github.io/cayman-theme or with real content at http://jasonlong.github.io/geo_pattern.
 
 ![](http://cl.ly/image/1T3r3d18311V/content)
+
+# Built with 
+
+HTML - The web page framework used
+
+CSS - describes the presentation of Web pages, including colors, layout, and fonts
+
+JSON - transmits data objects consisting of attribute
 
 # Customizations
 
@@ -13,6 +23,14 @@ If you copy this theme for your own needs, feel free to customize the colors how
 # Using with Jekyll
 
 If you'd like to use this theme with Jekyll, Pietro Menna has put together a package to make it easy. You can find it at https://github.com/pietromenna/jekyll-cayman-theme
+
+# Author
+
+chenshanghao
+
+# Deployment
+
+This project has not been deployed on a live system
 
 # License
 
