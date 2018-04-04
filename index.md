@@ -4,7 +4,7 @@
 # Assignment1
 
 ### Personal Interest
-I'm interested in match equations whether the bitwise data parallel expression matching equation is reliable or not. Can these manipulations be improved more?
+I'm interested in matching equations whether the bitwise data-parallel expression matching equation is reliable or not. Can these manipulations be improved more?
 
 $$ Match(m, C) = Advance(CharClass(C) ∧ m) $$
 $$ Match(m, RS) = Match(Match(m, R), S) $$
@@ -34,7 +34,7 @@ I know that maybe the reason that my boost version is higher than `1.33` that le
 
 I use command `cmake -version` to confirm my cmake version is `3.101`.
 
-When I try to figure out the problem, I find the following url about
+When I try to figure out the problem, I find the following URL about
 https://gitlab.kitware.com/cmake/cmake/blob/release/Modules/FindBoost.cmake
 ```c
 if(Boost_VERSION VERSION_LESS 103300)
@@ -62,7 +62,7 @@ https://github.com/dealii/dealii/issues/3765
 It said:
 No, that's not a problem
 - we don't use imported targets in our build system configuration
-- (it is already a mess - and with two different strategies of keeping track of external
+- (it is already a mess - and with two different strategies for keeping track of external
 - libraries it will get worse).
 
 This answer makes me more confused.
